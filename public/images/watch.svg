@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" width="100%" height="100%">
+      <rect width="400" height="280" rx="16" fill="#F5F3FF" />
+      <g transform="translate(145, 20)">
+        <!-- Strap -->
+        <rect x="25" y="0" width="60" height="235" rx="8" fill="#64748B" />
+        <!-- Watch Face -->
+        <circle cx="55" cy="115" r="50" fill="#064E3B" stroke="#CBD5E1" stroke-width="8" />
+        <circle cx="55" cy="115" r="3" fill="#F59E0B" />
+        <line x1="55" y1="115" x2="55" y2="85" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" />
+        <line x1="55" y1="115" x2="80" y2="115" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" />
+        <!-- Tick marks -->
+        <circle cx="55" cy="73" r="2" fill="#FFFFFF" />
+        <circle cx="55" cy="157" r="2" fill="#FFFFFF" />
+        <circle cx="13" cy="115" r="2" fill="#FFFFFF" />
+        <circle cx="97" cy="115" r="2" fill="#FFFFFF" />
+      </g>
+    </svg>

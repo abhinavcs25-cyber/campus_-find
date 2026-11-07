@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+      <defs>
+        <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#EFF6FF" />
+          <stop offset="100%" stop-color="#EEF2FF" />
+        </linearGradient>
+        <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#FFFFFF" />
+          <stop offset="100%" stop-color="#F8FAFC" />
+        </linearGradient>
+        <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+          <feDropShadow dx="0" dy="12" stdDeviation="15" flood-color="#1E293B" flood-opacity="0.1"/>
+        </filter>
+      </defs>
+      <rect width="600" height="450" rx="24" fill="url(#heroBg)" />
+      
+      <!-- Decorative circles -->
+      <circle cx="100" cy="80" r="60" fill="#DBEAFE" opacity="0.6"/>
+      <circle cx="520" cy="360" r="90" fill="#EDE9FE" opacity="0.7"/>
+      <circle cx="480" cy="90" r="40" fill="#FEE2E2" opacity="0.5"/>
+
+      <!-- Central Search / Hub Platform -->
+      <rect x="90" y="100" width="420" height="260" rx="20" fill="url(#cardGrad)" filter="url(#shadow)"/>
+      <rect x="120" y="130" width="220" height="14" rx="7" fill="#E2E8F0"/>
+      <rect x="120" y="155" width="140" height="10" rx="5" fill="#F1F5F9"/>
+
+      <!-- Found Badge Floating -->
+      <g transform="translate(340, 70)" filter="url(#shadow)">
+        <rect width="170" height="50" rx="25" fill="#16A34A" />
+        <circle cx="28" cy="25" r="14" fill="#FFFFFF"/>
+        <path d="M22 25 L26 29 L35 20" stroke="#16A34A" stroke-width="3" fill="none" stroke-linecap="round"/>
+        <text x="54" y="31" font-family="Inter, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">Found: Wallet</text>
+      </g>
+
+      <!-- Lost Badge Floating -->
+      <g transform="translate(70, 310)" filter="url(#shadow)">
+        <rect width="180" height="50" rx="25" fill="#DC2626" />
+        <circle cx="28" cy="25" r="14" fill="#FFFFFF"/>
+        <text x="24" y="30" font-family="Inter, sans-serif" font-size="16" font-weight="bold" fill="#DC2626">?</text>
+        <text x="54" y="31" font-family="Inter, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">Lost: ID Card</text>
+      </g>
+
+      <!-- Central Item Collage inside platform -->
+      <!-- Backpack -->
+      <rect x="130" y="190" width="70" height="90" rx="14" fill="#1E293B"/>
+      <rect x="145" y="220" width="40" height="40" rx="6" fill="#334155"/>
+      <circle cx="165" cy="235" r="4" fill="#F8FAFC"/>
+      
+      <!-- Water Bottle -->
+      <rect x="230" y="195" width="34" height="85" rx="10" fill="#2563EB"/>
+      <rect x="238" y="180" width="18" height="15" rx="3" fill="#1D4ED8"/>
+      
+      <!-- Calculator / Tech Device -->
+      <rect x="290" y="200" width="60" height="80" rx="10" fill="#0F172A"/>
+      <rect x="300" y="210" width="40" height="20" rx="4" fill="#A7F3D0"/>
+      <circle cx="305" cy="245" r="4" fill="#64748B"/>
+      <circle cx="320" cy="245" r="4" fill="#64748B"/>
+      <circle cx="335" cy="245" r="4" fill="#64748B"/>
+
+      <!-- Keys -->
+      <g transform="translate(385, 210)">
+        <circle cx="25" cy="20" r="15" fill="none" stroke="#F59E0B" stroke-width="5"/>
+        <rect x="23" y="35" width="6" height="40" fill="#D97706" rx="3"/>
+        <rect x="29" y="55" width="10" height="5" fill="#D97706" rx="2"/>
+        <rect x="29" y="65" width="8" height="5" fill="#D97706" rx="2"/>
+      </g>
+
+      <!-- Connecting dotted beam -->
+      <path d="M 200 130 Q 300 100 400 130" stroke="#7C3AED" stroke-width="3" stroke-dasharray="6,6" fill="none" opacity="0.6"/>
+    </svg>
